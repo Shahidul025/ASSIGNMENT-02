@@ -245,12 +245,14 @@ nav .manu{
 
 #Featured-Episodes .card-container{
     padding-left: 340px;
+    
 }
 
 .card-container {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     padding: 0 auto;
+   
 }
 
 .head{
@@ -263,7 +265,7 @@ nav .manu{
 
 .card{
     width: 380px;
-    border: 2px solid red;
+     background-color: #250D44;
     border-radius: 20px;
     
 }
@@ -291,8 +293,88 @@ nav .manu{
 
 .card h5{
     font-size: 1rem;
-    font-weight: 600px;
+    font-weight: 500px;
     color: #00FF88;
     padding: 24px;
+}
+
+
+
+
+
+/* Meet-the-Host */
+
+#container-host{
+    background-color: #1A0B2E;
+    hight: 290px;
+
+}
+
+
+.image-host{
+    width: 200px;
+    height: 200px;
+    padding: 40px 0 40px 40px;
+}
+
+.head-05{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+  
+}
+
+.Meet-the-Host{
+    
+    margin: 0 auto;
+    padding: 120px 200px;
+    width: 1200px;
+    padding-left: 200px;
+    
+    
+}
+
+.host-container{
+    max-width: 1600px;
+    background-color: #250D44;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+
+.text-content{
+    justify-content: space-between;
+
+}
+
+.text-content h1{
+    font-size: 2rem;
+    font-weight: 700px;
+    color: white;
+    padding-left: 24px;
+}
+
+
+.icons{
+    display: flex;
+    position: absolute;
+    right: 1160px;
+    padding-top: 165px;
+    gap: 20px;
+      
+}
+
+.text-content p{
+    font-size: 1rem;
+    font-weight: 300px;
+    color: white;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 40px;
 }
 
