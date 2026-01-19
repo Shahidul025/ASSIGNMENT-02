@@ -174,7 +174,7 @@ nav .manu{
 /* podcast section */
 
 
-section{
+#podcast-content{
     background-color: #1A0B2E;
     height: 720px;
   
@@ -183,10 +183,49 @@ section{
 .Podcast{
     width: 1200px;
     height: 222px;
-    border: 2px solid white;
-    margin: 50px 250px 0 300px;
-    
-    
+    /* border: 2px solid white; */
+    margin: 0 auto;
 
 }
+
+.head-text{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: white;
+    padding-top: 16px;
+    text-align: center;
+}
+
+
+.mark-text{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 165px;
+}
+
+.mark-text h1{
+    font-size: 3rem;
+    font-weight: 900px;
+    color: #00FF88;
+}
+
+.mark-text p{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: white;
+    padding-top: 16px;
+}
+
+
 
