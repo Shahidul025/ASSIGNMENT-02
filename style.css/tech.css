@@ -229,3 +229,70 @@ nav .manu{
 
 
 
+
+
+/* Featured Episodes section */
+
+
+
+
+
+#Featured-Episodes{
+    background-color: #1A0B2E;
+    
+ 
+}
+
+#Featured-Episodes .card-container{
+    padding-left: 340px;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    padding: 0 auto;
+}
+
+.head{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.card{
+    width: 380px;
+    border: 2px solid red;
+    border-radius: 20px;
+    
+}
+
+.card .vedio{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.card h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 24px;
+
+}
+
+.card p{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: white;
+    padding: 0 22px 0 22px;
+}
+
+.card h5{
+    font-size: 1rem;
+    font-weight: 600px;
+    color: #00FF88;
+    padding: 24px;
+}
+
