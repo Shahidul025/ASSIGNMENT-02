@@ -378,3 +378,65 @@ nav .manu{
     padding-right: 40px;
 }
 
+
+
+
+
+/* footer section */
+
+
+#footer{
+    background-image: url(../assets/foote\ BI.png);
+    height: 412px;
+    
+
+}
+
+
+#footer .head-text .H7{
+  
+    position: absolute;
+    left: 50px;
+    right: 60px;
+    bottom: 5px;
+    top: 2950px;
+    
+}
+
+.icons-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 408px 56px;
+    position: absolute;
+    bottom: 50px;
+    top: 3000px;
+    padding-left: 280px;
+    align-items: center;
+    color: white;
+}
+
+
+.icons-text div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+
+
+/* .head-text h5{
+    display: flex;
+    position: absolute;
+    left: 500px;
+    right: 00px;
+} */
+
+#footer p{
+    position: absolute;
+    bottom: 50px;
+    top: 3180px;
+    left: 760px;
+    color: white;
+}
