@@ -19,10 +19,11 @@ header{
 }
 
 
-.logo{
-    font-size: 21px;
-    color: white;
-    
+.logo-head img {
+   
+    width: 200px;
+    height: 30px;
+   
 }
 
 
@@ -140,7 +141,7 @@ nav .manu{
 }
 
 .btn-3{
-    padding: 12px 20px 12px 48px ;
+    padding: 12px 20px 12px 38px;
     border-radius: 20px;
     background: linear-gradient(30deg, #F7E93F,#9100F8);
     border: none;
@@ -149,9 +150,13 @@ nav .manu{
     color: white;
     position: absolute;
     bottom: 90px;
-    left: 790px;
+    left: 765px;
+    
 
 }
+
+
+
 
 .btn-4{
     padding: 12px 20px 12px 48px ;
@@ -160,8 +165,9 @@ nav .manu{
     border: none;
     font-size: 1rem;
     font-weight: 400px;
+   
     
-    
+
     position: absolute;
     bottom: 90px;
     left: 990px;
@@ -670,11 +676,12 @@ nav .manu{
 }
 
 
-.logo{
-    padding-left: 845px;
+.logo img {
+    padding-left: 750px;
     padding-top: 120px;
-    font-size: 1.8rem;
-    font-weight: bold;
+    width: 410px;
+    height: 60px;
+    
 }
 
 .icons-name{
@@ -691,4 +698,12 @@ nav .manu{
 .icons-name .container{
     display: flex;
     gap: 30px;
+
+
 }
+
+.icons-name{
+    padding-left: 700px;
+    padding-top: 20px;
+}
+
