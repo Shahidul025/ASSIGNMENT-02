@@ -231,6 +231,217 @@ nav .manu{
 
 
 
+
+
+
+/* Why Choose TechWave */
+
+
+#grid-section{
+    background-color: #230E3D;
+   
+    
+    height: 1121px;
+
+
+
+}
+
+.text-cont h1{
+    font-size: 3rem;
+    color: white;
+    padding-top: 120px;
+    padding-left: 680px;
+    padding-bottom: 40px;
+}
+.grid-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(220px, auto);
+    gap: 30px;
+    border-radius: 20px;
+    
+    
+    
+    
+}
+
+.grid-one{
+    grid-row: span 2;
+    background-color: rgba(53, 17, 101, 0.4);
+}
+
+.grid-two, .grid-three, .grid-four{
+    grid-column: span 2;
+    background-color:rgba(53, 17, 101, 0.4);
+}
+
+.grid-five{
+    
+    background-color: rgba(53, 17, 101, 0.4);
+}
+
+.grid-content h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 40px;
+}
+
+.grid-content p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 17px;
+}
+
+.grid-content img{
+    padding-left: 40px;
+
+
+}
+
+.grid-one img{
+    padding-top: 107px;
+}
+
+.grid-one h2{
+    padding-top: 16px;
+}
+
+.grid-one p{
+    padding-top: 16px;
+    padding-right: 40px;
+}
+
+
+.grid-two img{
+    padding-top: 40px;
+
+}
+
+.grid-four img{
+    padding-top: 45px;
+}
+
+.grid-five img{
+    padding-top: 40px;
+}
+
+.grid-two h2{
+    padding-top: 16px;
+
+}
+
+.grid-three h2{
+    padding-top: 16px;
+
+}
+
+.grid-four .grid-five h2{
+    padding-top: 16px;
+
+}
+
+
+
+.grid-three img{
+    padding-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Featured Episodes section */
 
 
@@ -304,79 +515,96 @@ nav .manu{
 
 /* Meet-the-Host */
 
+
 #container-host{
+    /* max-width: 1910px; */
     background-color: #1A0B2E;
-    hight: 290px;
-
+    padding-bottom: 120px;
+    
 }
 
-
-.image-host{
-    width: 200px;
-    height: 200px;
-    padding: 40px 0 40px 40px;
+.body-container{
+    max-width: 1200px;
+    background-color: rgba(53, 17, 101, 0.4);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+    
 }
 
-.head-05{
-    font-size: 1.5rem;
+#container-host h1{
+    font-size: 3rem;
     font-weight: bold;
     color: white;
-    text-align: center;
-    padding-top: 70px;
+    padding-left: 760px;
+    padding-top: 120px;
     padding-bottom: 40px;
+
+    
+}
+
+.host-image{
+    width: 200px;
+    height: 200px;
+    margin: 40px 0 40px 40px;
+}
+
+.text-section h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding-top: 48.5px;
+    padding-left: 24px;
+}
+
+.text-section p{
+    font-size: 1rem;
+    font-weight: 300px;
+    color: white;
+    padding-left: 24px;
+    margin: 16px 40px 0 0;
+}
+
+.icons-section {
+    padding-left: 24px;
+    padding-top: 16px;
     
   
 }
 
-.Meet-the-Host{
-    
-    margin: 0 auto;
-    padding: 120px 200px;
-    width: 1200px;
-    padding-left: 200px;
-    
-    
-}
-
-.host-container{
-    max-width: 1600px;
-    background-color: #250D44;
+.icons-section, .sets, T-01, T-02, T-03, T-04{
     display: flex;
-    align-items: center;
-    border-radius: 30px;
+    gap: 15px;
     
 }
 
-.text-content{
-    justify-content: space-between;
-
+.T-01{
+    border: 2px solid #533C72;
+    padding: 10px;
+    border-radius: 100%;
 }
 
-.text-content h1{
-    font-size: 2rem;
-    font-weight: 700px;
-    color: white;
-    padding-left: 24px;
+.T-02{
+    border: 2px solid #533C72;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.T-03{
+    border: 2px solid #533C72;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.T-04{
+    border: 2px solid #533C72;
+    padding: 10px;
+    border-radius: 100%;
 }
 
 
-.icons{
-    display: flex;
-    position: absolute;
-    right: 1160px;
-    padding-top: 165px;
-    gap: 20px;
-      
-}
-
-.text-content p{
-    font-size: 1rem;
-    font-weight: 300px;
-    color: white;
-    padding-top: 16px;
-    padding-left: 20px;
-    padding-right: 40px;
-}
 
 
 
@@ -392,7 +620,7 @@ nav .manu{
 
 }
 
-
+/* 
 #footer .head-text .H7{
   
     position: absolute;
@@ -415,16 +643,11 @@ nav .manu{
     color: white;
 }
 
-
 .icons-text div{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-
-
-
-
 
 /* .head-text h5{
     display: flex;
@@ -433,10 +656,39 @@ nav .manu{
     right: 00px;
 } */
 
-#footer p{
+/* #footer p{
     position: absolute;
     bottom: 50px;
     top: 3180px;
     left: 760px;
     color: white;
+} */ */
+
+
+.footer{
+    min-width: 1900PX;
+}
+
+
+.logo{
+    padding-left: 845px;
+    padding-top: 120px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.icons-name{
+    display: flex;
+    align-items: center;
+} 
+
+.icons-name h4{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400px;
+}
+
+.icons-name .container{
+    display: flex;
+    gap: 30px;
 }
