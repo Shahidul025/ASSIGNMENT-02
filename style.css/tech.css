@@ -74,32 +74,35 @@ nav .manu{
 
 
 
-.banner{
-    background-image: url(../assets/bannerUP.jpg);
-    /* width: 99%; */
+/* .banner { */
+    /* background-image: url(../assets/bannerUP.jpg); */
+   
+    /* width: 99%; */ 
     /* padding-right: 20px;
     padding-bottom:150px; */
-    height: 720px;
-    /* display: flex; */
+    /* height: 720px; */
+    
 
-    align-items: center;
-    justify-content: center;
+    
+    /* justify-content: center;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
+     */
 
-.circle-icon{
-    position: absolute;
+   
+ .circle-icon{
+    
     bottom: 250px;
     left: 800px;
+    position: absolute;
+    top: 200px;
     
 }
 
 .micro-icon{
     position: absolute;
-    bottom: 340px;
+    bottom: 450px;
     left: 912px;
     
 }
@@ -107,7 +110,7 @@ nav .manu{
 .btn-2{
 
     position: absolute;
-    bottom: 550px;
+    bottom: 700px;
     left: 1030px; 
 
 }
@@ -127,7 +130,7 @@ nav .manu{
     color: white;
     position: absolute;
     bottom: 230px;
-    top: 480px;
+    top: 550px;
     left: 820px;
 }
 
@@ -135,9 +138,10 @@ nav .manu{
     font-size: 1rem;
     font-weight: 400px;
     position: absolute;
-    bottom: 150px;
+    bottom: 270px;
     left: 700px;
     color: white;
+    
 }
 
 .btn-3{
@@ -149,7 +153,7 @@ nav .manu{
     font-weight: 400px;
     color: white;
     position: absolute;
-    bottom: 90px;
+    bottom: 198px;
     left: 765px;
     
 
@@ -165,11 +169,8 @@ nav .manu{
     border: none;
     font-size: 1rem;
     font-weight: 400px;
-   
-    
-
     position: absolute;
-    bottom: 90px;
+    bottom: 198px;
     left: 990px;
 
 }
@@ -177,7 +178,21 @@ nav .manu{
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* podcast section */
+
+
+
+
 
 
 #podcast-content{
@@ -358,63 +373,6 @@ nav .manu{
     padding-top: 40px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -672,7 +630,7 @@ nav .manu{
 
 
 .footer{
-    min-width: 1900PX;
+    max-width: 1900PX;
 }
 
 
@@ -707,3 +665,46 @@ nav .manu{
     padding-top: 20px;
 }
 
+
+
+
+/* media quary section */
+
+
+@media screen and ( mix-width : 576px ){
+
+
+    li a{
+        flex-direction: column;
+    }
+
+    .banner-image{
+       flex-direction: column;
+       width: 600px;
+    }
+
+    .logo-head img{
+        width: 100px;
+        height: 10px;
+
+    }
+
+    .mark-text{
+    width: 200px;
+    flex-direction: column;
+    
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+
+}
+
+
+
+
+
+
+ 
